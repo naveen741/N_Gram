@@ -1,0 +1,9 @@
+.interest{
+    width: 35%;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: left;
+}
+.interest *{
+    padding: 10px;
+}

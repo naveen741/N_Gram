@@ -1,0 +1,23 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.signin{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 20px;
+}
+.signin input{
+    padding: 10px;
+    margin: 10px 0px;
+}
+.signin button{
+    width: 30%;
+    margin: 0px auto;
+    padding: 5px;
+}

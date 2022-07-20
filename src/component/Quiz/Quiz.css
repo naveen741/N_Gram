@@ -1,0 +1,74 @@
+
+.Quiz {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.myquiz{
+  display: flex;
+}
+.start,.play,.score{
+  width: 50%;
+  position: absolute;
+}
+.start{
+  background-color: #e3e3e3;
+  height: 1100px;
+  left: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.StartContent{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  
+}
+.play{
+  background-color: #c3c3c3;
+  top: 300px;
+  right: 300px;
+  z-index: 2;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.QandA{
+  width: 100%;
+  text-align: left;
+}
+.options{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+.option{
+  width: 20%;
+  cursor: pointer;
+  background-color: #dfdfdf;
+  text-align: center;
+  border: solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: 1px 2px 5px;
+}
+.score{
+  background-color: #a5a5a5;
+  top: 450px;
+  right:  100px;
+  z-index: 4;
+}
+.nextBtn{
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #9be5c6;
+}

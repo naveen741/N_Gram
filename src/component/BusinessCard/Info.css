@@ -1,0 +1,40 @@
+.info{
+    width: 35%;
+    background-color: #000000;
+}
+.name{
+    color: #ffffff;
+}
+.position{
+    color: #c7c7c7;
+}
+.company{
+    color: #6c6c6c;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons button{
+    width: 45%;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: #6c6c6c;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email,.linkedin{
+    width: 20px;   
+    background-repeat: no-repeat;
+}
+.email{
+    height: 10px;
+    background-image: url('../../images/DigitalBusinessCard/Icon.svg');
+}
+.linkedin{
+    height: 15px;
+    background-image: url('../../images/DigitalBusinessCard/Vector.svg');
+}

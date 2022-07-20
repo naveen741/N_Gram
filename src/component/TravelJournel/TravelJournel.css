@@ -1,0 +1,31 @@
+.travelJournel {
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffe4c4;
+}
+.travelLog,.location,.locationLink,.loactionDetails{
+  display: flex;
+  padding: 20px;
+}
+.location{
+  flex-direction: column;
+}
+.locationLink{
+  flex-direction: row;
+}
+.locationLink div{
+    padding: 5px;
+}
+.loactionDetails{
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+.locationImage{
+  width: 30%;
+}
+.placeName{
+  font-size: 17px;
+}

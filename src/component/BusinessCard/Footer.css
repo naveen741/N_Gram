@@ -1,0 +1,25 @@
+.footer{
+    width: 35%;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer *{
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+}
+.Insta{
+    background-image: url('../../images/DigitalBusinessCard/Instagram\ Icon.svg');
+}
+.FaceBook{
+    background-image: url('../../images/DigitalBusinessCard/Facebook\ Icon.svg');
+}
+.Twitter{
+    background-image: url('../../images/DigitalBusinessCard/Twitter\ Icon.svg');
+}
+.GitHub{
+    background-image: url('../../images/DigitalBusinessCard/GitHub\ Icon.svg');
+}

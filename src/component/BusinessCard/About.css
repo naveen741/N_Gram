@@ -1,0 +1,9 @@
+.about{
+    width: 35%;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: left;
+}
+.about *{
+    padding: 10px;
+}

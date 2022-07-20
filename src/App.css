@@ -1,0 +1,44 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  background-color: #63beff;
+}
+.item{
+  display: flex;
+  flex: 25%;
+  flex-wrap: wrap;
+  border: solid 1px black;
+  justify-content: center;
+  padding: 15px 20px;
+  border-collapse: collapse;
+  align-items: center;
+}
+.navBar{
+  display:flex ;
+  flex-direction: row;
+  text-align: center;
+  border-collapse: collapse;
+  border: solid 1px black;
+  background-color: #c4e6ff;
+  width: 100%;
+}
+.heading{
+  flex: 60%;
+  margin-left: 23%;
+}
+.navi{
+  background-color: #9ccaf9;
+  flex: 40%;
+  display: flex;
+  flex-direction: row;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}

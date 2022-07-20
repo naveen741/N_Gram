@@ -1,0 +1,22 @@
+.resgister{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 20px;
+}
+.signup input{
+    padding: 10px;
+    margin: 10px 0px;
+}
+.signup button{
+    width: 30%;
+    margin: 0px auto;
+    padding: 5px;
+}
