@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/My_Application_Frontend/static/css/main.a9694c93.css",
+    "main.js": "/My_Application_Frontend/static/js/main.36e7c952.js",
+    "static/js/787.0330c0f8.chunk.js": "/My_Application_Frontend/static/js/787.0330c0f8.chunk.js",
+    "static/media/photo-grid.png": "/My_Application_Frontend/static/media/photo-grid.294d59b66b94e0e456cf.png",
+    "static/media/mountain_bike.png": "/My_Application_Frontend/static/media/mountain_bike.e249d8a7c9dd6935df4c.png",
+    "static/media/wedding_photography.png": "/My_Application_Frontend/static/media/wedding_photography.62dfa0af6d4f23912427.png",
+    "static/media/katie_zaferes.png": "/My_Application_Frontend/static/media/katie_zaferes.8c39a93af3d2de2b3c27.png",
+    "static/media/airbnb-logo.png": "/My_Application_Frontend/static/media/airbnb-logo.e4424517383d14a03a24.png",
+    "static/media/Instagram Icon.svg": "/My_Application_Frontend/static/media/Instagram Icon.70a4e57680243a298f6e.svg",
+    "static/media/GitHub Icon.svg": "/My_Application_Frontend/static/media/GitHub Icon.a7c98ca789060d9fefea.svg",
+    "static/media/Twitter Icon.svg": "/My_Application_Frontend/static/media/Twitter Icon.cdc6087fa0077bf0f868.svg",
+    "static/media/Vector.svg": "/My_Application_Frontend/static/media/Vector.16942bd590e1aa6dd0db.svg",
+    "index.html": "/My_Application_Frontend/index.html",
+    "static/media/Facebook Icon.svg": "/My_Application_Frontend/static/media/Facebook Icon.c9de4eecc76040176776.svg",
+    "static/media/Icon.svg": "/My_Application_Frontend/static/media/Icon.75245445b9cb2b54a9b0.svg",
+    "main.a9694c93.css.map": "/My_Application_Frontend/static/css/main.a9694c93.css.map",
+    "main.36e7c952.js.map": "/My_Application_Frontend/static/js/main.36e7c952.js.map",
+    "787.0330c0f8.chunk.js.map": "/My_Application_Frontend/static/js/787.0330c0f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9694c93.css",
+    "static/js/main.36e7c952.js"
+  ]
+}
