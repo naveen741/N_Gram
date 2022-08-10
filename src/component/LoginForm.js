@@ -22,7 +22,7 @@ export default function LoginForm(props){
             if(Response.data.signin.message==='SUCCESS'){
                 alert("sucessfully logged in")
                 props.getmsg();
-                navigate("/My_Application_Frontend/home");
+                navigate("/N_Gram/home");
             }
             else if(Response.data.signin.message==='USER NOT FOUND')
                 alert("USER NOT FOUND!! Enter the credentails properly")
@@ -49,7 +49,7 @@ export default function LoginForm(props){
             </form>
             
             <div className="signin-footer">
-                <h3>If you dont have account,<Link to="/My_Application_Frontend/signupform">sign-up</Link></h3>
+                <h3>If you dont have account,<Link to="/N_Gram/signupform">sign-up</Link></h3>
             </div>
         </div>
     );

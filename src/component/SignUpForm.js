@@ -22,7 +22,7 @@ export default function SignUpForm(){
           console.log(Response);
           if(Response.data.signup.message==='SUCCESS'){
               alert("sucessfully Signed Up")
-              navigate("/My_Application_Frontend");
+              navigate("/N_Gram");
           }
           else
             alert("Something went wrong please try again")

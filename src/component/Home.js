@@ -3,13 +3,13 @@ function Home(){
     return (
         <div className="Container">
             <ul>
-                <li><Link to="/My_Application_Frontend/businessCard">BusinessCard</Link></li>
-                <li><Link to="/My_Application_Frontend/airBNB">AirBNB</Link></li>
-                <li><Link to="/My_Application_Frontend/travelJournel">TravelJournel</Link></li>
-                <li><Link to="/My_Application_Frontend/memeGenerator">MemeGenerator</Link></li>
-                <li><Link to="/My_Application_Frontend/tenzies">Tenzies</Link></li>
-                <li><Link to="/My_Application_Frontend/quiz">Quizzal</Link></li>
-                <li><Link to="/My_Application_Frontend/onlineCompiler">OnlineCompiler</Link></li>
+                <li><Link to="/N_Gram/businessCard">BusinessCard</Link></li>
+                <li><Link to="/N_Gram/airBNB">AirBNB</Link></li>
+                <li><Link to="/N_Gram/travelJournel">TravelJournel</Link></li>
+                <li><Link to="/N_Gram/memeGenerator">MemeGenerator</Link></li>
+                <li><Link to="/N_Gram/tenzies">Tenzies</Link></li>
+                <li><Link to="/N_Gram/quiz">Quizzal</Link></li>
+                <li><Link to="/N_Gram/onlineCompiler">OnlineCompiler</Link></li>
             </ul>
             
             

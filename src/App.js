@@ -28,25 +28,25 @@ function App() {
         </div>
         
         <nav className="navi">
-        {islogin && <Link className="item" to="/My_Application_Frontend" onClick={()=>{setIslogin(false)}}>Log Out</Link>}
-        <Link className="item" to={islogin?"/My_Application_Frontend/home":"/My_Application_Frontend"}>Home</Link>
-        <Link className="item" to="/My_Application_Frontend/about">About</Link>
-        <Link className="item" to="/My_Application_Frontend/contact">Contact</Link>
+        {islogin && <Link className="item" to="/N_Gram" onClick={()=>{setIslogin(false)}}>Log Out</Link>}
+        <Link className="item" to={islogin?"/N_Gram/home":"//N_Gram"}>Home</Link>
+        <Link className="item" to="/N_Gram/about">About</Link>
+        <Link className="item" to="/N_Gram/contact">Contact</Link>
         </nav>
       </div>
         <Routes>
-          <Route path="/My_Application_Frontend" element={<LoginForm getmsg={getmsg}/>}/>
-          <Route path="/My_Application_Frontend/about" element={<About/>}/>
-          <Route path="/My_Application_Frontend/contact" element={<Contact/>}/>
-          <Route path="/My_Application_Frontend/signupform" element={<SignUpForm/>}/>
-          <Route path="/My_Application_Frontend/home" element={<Home/>}/>
-          <Route path="/My_Application_Frontend/businessCard" element={<BussinesCard/>}/>
-          <Route path="/My_Application_Frontend/airBNB" element={<AirBNB/>}/>
-          <Route path="/My_Application_Frontend/travelJournel" element={<TravelJournel/>}/>
-          <Route path="/My_Application_Frontend/memeGenerator" element={<MemeGenerator/>}/>
-          <Route path="/My_Application_Frontend/tenzies" element={<Tenzies/>}/>
-          <Route path="/My_Application_Frontend/quiz" element={<Quiz/>}/>
-          <Route path="/My_Application_Frontend/onlineCompiler" element={<OnlineCompiler/>}/>
+          <Route path="/N_Gram" element={<LoginForm getmsg={getmsg}/>}/>
+          <Route path="/N_Gram/about" element={<About/>}/>
+          <Route path="/N_Gram/contact" element={<Contact/>}/>
+          <Route path="/N_Gram/signupform" element={<SignUpForm/>}/>
+          <Route path="/N_Gram/home" element={<Home/>}/>
+          <Route path="/N_Gram/businessCard" element={<BussinesCard/>}/>
+          <Route path="/N_Gram/airBNB" element={<AirBNB/>}/>
+          <Route path="/N_Gram/travelJournel" element={<TravelJournel/>}/>
+          <Route path="/N_Gram/memeGenerator" element={<MemeGenerator/>}/>
+          <Route path="/N_Gram/tenzies" element={<Tenzies/>}/>
+          <Route path="/N_Gram/quiz" element={<Quiz/>}/>
+          <Route path="/N_Gram/onlineCompiler" element={<OnlineCompiler/>}/>
         </Routes>
       </BrowserRouter>
     </div>

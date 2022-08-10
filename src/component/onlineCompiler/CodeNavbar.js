@@ -32,7 +32,7 @@ const CodeNavbar = ({userLang, setUserLang, userTheme,
                         value={fontSize} step="2"
                         onChange={(e) => { setFontSize(e.target.value)}}/>
                 </div>
-                <button onClick={()=>{navigate("/My_Application_Frontend");}}>Submit</button>
+                <button onClick={()=>{navigate("/N_Gram");}}>Submit</button>
             </div>
         </div>
     )
