@@ -29,7 +29,7 @@ function App() {
         
         <nav className="navi">
         {islogin && <Link className="item" to="/N_Gram" onClick={()=>{setIslogin(false)}}>Log Out</Link>}
-        <Link className="item" to={islogin?"/N_Gram/home":"//N_Gram"}>Home</Link>
+        <Link className="item" to={islogin?"/N_Gram/home":"/N_Gram"}>Home</Link>
         <Link className="item" to="/N_Gram/about">About</Link>
         <Link className="item" to="/N_Gram/contact">Contact</Link>
         </nav>
