@@ -24,7 +24,7 @@ function App() {
        <BrowserRouter>
       <div className="navBar">
         <div className="heading">
-          <h1>My Application</h1>
+          <h1>N_Gram</h1>
         </div>
         
         <nav className="navi">

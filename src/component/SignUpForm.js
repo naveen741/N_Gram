@@ -1,17 +1,26 @@
 import {useForm} from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import { fetchData } from '../API/ApiRequest';
+import { useMutation } from '@apollo/client';
 import './SignUpForm.css'
+import { SIGNUP } from '../graphqlQueries';
 export default function SignUpForm(){
+    const [signup] = useMutation(SIGNUP);
     const {handleSubmit, register}=useForm();
     const navigate=useNavigate()
     const onSubmit= (data,e)=>{
-      console.log(data, e);
+      // console.log(data, e);
       if(data.user_password === data.repassword){
         delete data.repassword;
-        fetchData(data,"savedata").then(Response=>{
+        data.user_moblieNo = parseInt(data.user_moblieNo) ;
+        const reqdata={
+            "signupUserInput":data
+          }
+          // console.log(reqdata);
+        // fetchData(data,"savedata")
+        signup({ variables: reqdata }).then(Response=>{
           console.log(Response);
-          if(Response.message==='SUCCESS'){
+          if(Response.data.signup.message==='SUCCESS'){
               alert("sucessfully Signed Up")
               navigate("/My_Application_Frontend");
           }

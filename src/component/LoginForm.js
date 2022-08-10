@@ -2,21 +2,30 @@ import {  Link } from "react-router-dom";
 import {useForm} from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import { fetchData } from '../API/ApiRequest';
+import { useLazyQuery } from '@apollo/client'
 import './LoginForm.css'
+import { SIGNIN } from "../graphqlQueries";
 export default function LoginForm(props){
+    const [signin]=useLazyQuery(SIGNIN)
     const {handleSubmit, register}=useForm();
     const navigate=useNavigate();
     const onSubmit=(data,e)=>{
-        console.log(data, e);
-        fetchData(data,"checkdata").then(Response=>{
-            console.log(Response);
-            if(Response.message==='SUCCESS'){
+        
+        data.user_moblieNo = parseInt(data.user_moblieNo) ;
+        const reqdata={
+            "signinUserInput":data
+          }
+        //   console.log(reqdata);
+        // fetchData(data,"checkdata")
+        signin({ variables: reqdata }).then(Response=>{
+            // console.log(Response);
+            if(Response.data.signin.message==='SUCCESS'){
                 alert("sucessfully logged in")
                 props.getmsg();
                 navigate("/My_Application_Frontend/home");
             }
-            else if(Response.message==='INCORRECT DETAILS')
-                alert("Enter the credentails properly")
+            else if(Response.data.signin.message==='USER NOT FOUND')
+                alert("USER NOT FOUND!! Enter the credentails properly")
             else
                 alert("Something went wrong please try again")
         })
